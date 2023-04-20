@@ -158,7 +158,6 @@ for(i in 1:tail_index){
   
   node_names=c()
   num_seed = length(seed)
-  print(getDataFile)
   for(j in 1:nrow(getDataFile)){
     if(seed_kind==0){
       candidates=c(getDataFile$i[j],getDataFile$e[j],getDataFile$c[j],getDataFile$p[j],getDataFile$l[j]) 
